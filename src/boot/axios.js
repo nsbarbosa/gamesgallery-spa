@@ -4,7 +4,8 @@ import { i18nInstance } from 'boot/i18n'
 
 const axiosInstance = axios.create({})
 
-axiosInstance.defaults.baseURL = 'http://localhost:8000/api'
+//axiosInstance.defaults.baseURL = 'http://localhost:8000/api'
+axiosInstance.defaults.baseURL = 'https://gamesgalleryapi.herokuapp.com/api'
 axiosInstance.defaults.headers['Content-Type'] = 'application/json'
 
 const interceptor = axiosInstance.interceptors.response.use((response) => {
