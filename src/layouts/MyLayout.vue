@@ -66,10 +66,10 @@
           </q-card-actions>
         </q-card>
         </q-btn-dropdown>
-        <q-btn v-if="this.$auth.loggedIn()" @click="$router.push('/')" flat label="Home"></q-btn>
-        <q-btn v-if="this.$auth.loggedIn()" @click="$router.push('/games')" flat label="Meus Jogos"></q-btn>
-        <q-btn v-if="this.$auth.loggedIn()" @click="$router.push('/user')" flat label="Perfil"></q-btn>
-        <q-btn v-if="this.$auth.loggedIn()" @click="$router.push('/logout')" flat label="Sair"></q-btn>
+        <q-btn v-if="this.$auth.loggedIn()" @click="$router.push('/')" icon="home" flat label="Home"></q-btn>
+        <q-btn v-if="this.$auth.loggedIn()" @click="$router.push('/games')" icon="sports_esports" flat label="Meus Jogos"></q-btn>
+        <q-btn v-if="this.$auth.loggedIn()" @click="$router.push('/user')" icon="sentiment_very_satisfied" flat label="Perfil"></q-btn>
+        <q-btn v-if="this.$auth.loggedIn()" @click="$router.push('/logout')" icon="power_settings_new" flat label="Sair"></q-btn>
       </q-toolbar>
     </q-header>
 
