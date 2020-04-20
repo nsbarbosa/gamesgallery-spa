@@ -12,6 +12,8 @@ Uma SPA que se comunica com a api criada [aqui!](https://github.com/nsbarbosa/ga
 # Deploy
 Fiz o deploy no heroku: https://gamesgallery.herokuapp.com/ !
 > Mexe lá :hugs:
+Ps:
+Descobri que o heroku não mantém por muito tempo as imagens, mas serve pra interagir com a aplicação sem precisar baixar/levantar...
 
 # Screenshots
 
